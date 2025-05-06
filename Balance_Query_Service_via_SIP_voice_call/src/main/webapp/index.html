@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balance Query Service</title>
+    <link rel="icon" type="image/x-icon" href="./img/phone-call.png">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #e3f2fd, #ffffff);
+            color: #333;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        h2 {
+            font-size: 2em;
+            color: #007BFF;
+            margin-bottom: 30px;
+        }
+
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            max-width: 350px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        button {
+            width: 100%;
+            padding: 14px 24px;
+            font-size: 16px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        button:hover {
+            background-color: #0056b3;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Welcome to Balance Query Service</h2>
+
+    <div class="button-container">
+        <button onclick="window.location.href = 'add-user.html';">➕ Add User</button>
+        <button onclick="window.location.href = 'check-balance.html';">💰 Get Balance</button>
+        <button onclick="window.location.href = 'update-balance.html';">🔄 Update Balance</button>
+        <button onclick="window.location.href = 'delete-user.html';">🗑️ Delete User</button>
+    </div>
+
+</body>
+</html>

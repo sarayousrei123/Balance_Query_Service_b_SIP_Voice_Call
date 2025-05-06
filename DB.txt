@@ -1,0 +1,12 @@
+create database balancer_all ;
+ \c balancer_all
+CREATE TYPE user_role AS ENUM ('admin', 'user'); 
+
+CREATE TABLE users (
+    id SERIAL PRIMARY KEY,
+    msisdn VARCHAR(20) UNIQUE NOT NULL,
+    balance DECIMAL(10,2) NOT NULL
+    username VARCHAR(50) NOT NULL,
+    role user_role NOT NULL,
+    password VARCHAR(100) NOT NULL
+);

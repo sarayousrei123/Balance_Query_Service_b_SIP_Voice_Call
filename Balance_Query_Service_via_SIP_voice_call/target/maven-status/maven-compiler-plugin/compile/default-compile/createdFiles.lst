@@ -1,0 +1,4 @@
+com/mycompany/balance_query_service_via_sip_voice_call/resources/JakartaEE11Resource.class
+com/mycompany/balance_query_service_via_sip_voice_call/PSQL.class
+com/mycompany/balance_query_service_via_sip_voice_call/BalanceAPI.class
+com/mycompany/balance_query_service_via_sip_voice_call/JakartaRestConfiguration.class
